@@ -1,0 +1,44 @@
+/*******************HOME*******************/
+
+.introsSection {
+  /* height: calc(100vh - 50px); */
+  width: 100%;
+  /* background-color: violet; */
+  position: relative;
+  top: 50px;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+.introsSection::-webkit-scrollbar {
+  display: none;
+}
+.introsSection > * {
+  width: 100%;
+  /* height: calc(100vh - 50px); */
+  scroll-snap-align: start;
+}
+
+/*******************INTRO*******************/
+
+.container {
+  display: flex;
+}
+
+.leftIntro {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightIntro {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightIntro img {
+  height: 400px;
+  width: 620px;
+  border-radius: 60%;
+}

@@ -1,0 +1,29 @@
+.contained {
+  display: flex;
+}
+.leftContained {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container button {
+  margin-top: 15px;
+}
+
+.rightContained {
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.rightContained img {
+  height: 100%;
+}
