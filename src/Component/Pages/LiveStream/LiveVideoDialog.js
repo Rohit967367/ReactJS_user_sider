@@ -32,7 +32,7 @@ const LiveVideoDialog = () => {
           {`Event Name: ${link.name}`}
         </DialogTitle>
         <DialogContent>
-          <DialogContentText>{`Event Name: ${link?.record}`}</DialogContentText>
+          {/* <DialogContentText>{`Event Name: ${link?.record}`}</DialogContentText> */}
           <ReactPlayer
             url={link.downstreamUrl}
             controls
